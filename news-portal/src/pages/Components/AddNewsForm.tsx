@@ -69,7 +69,7 @@ const AddNewsForm: React.FC<AddNewsFormProps> = ({ onAddNews }) => {
 
   return (
     <div className="max-w-xl mx-auto">
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={handleSubmit} className="space-y-4 bg-gray-100">
         <div>
           <label
             htmlFor="title"
